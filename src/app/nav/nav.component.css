@@ -20,13 +20,6 @@ ul {
 
 .nav-item {
     padding: 10px;
-}
-
-.nav-item a {
     color: black;
     text-decoration: none;
-}
-
-.nav-item a:hover {
-    text-decoration: underline;
 }
