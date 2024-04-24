@@ -1,4 +1,13 @@
-.jumbotron {
+.text-center {
     padding: 2rem 1rem;
     background-color: #e9ecef;
+    text-align: center;
+}
+
+.applicant-name {
+    font-weight: normal;
+}
+
+.job-description {
+    font-weight: thicker;
 }
