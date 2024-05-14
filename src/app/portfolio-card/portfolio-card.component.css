@@ -1,0 +1,12 @@
+.portfolio-card {
+    box-sizing: border-box;
+}
+
+.chips-container {
+    margin-top: 10px;
+}
+
+.tech-chip {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
