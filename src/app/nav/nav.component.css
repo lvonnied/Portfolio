@@ -20,10 +20,11 @@ ul {
 
 .nav-item {
     padding: 10px;
-    color: black;
+    color: gray;
     text-decoration: none;
 }
 
 .nav-item.active {
     font-weight: 450;
+    color: black;
 }
