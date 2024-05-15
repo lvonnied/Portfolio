@@ -25,6 +25,5 @@ ul {
 }
 
 .nav-item.active {
-    font-weight: 450;
     color: black;
 }
