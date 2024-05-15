@@ -14,4 +14,9 @@ import { CommonModule } from '@angular/common';
 })
 export class PortfolioCardComponent {
   @Input() project!: Project;
+
+  redirectToRepo(url: string): void {
+    // '_blank' opens the url in a new tab
+    window.open(url, '_blank');
+  }
 }
