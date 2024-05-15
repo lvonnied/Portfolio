@@ -1,0 +1,42 @@
+.platform-avatar img {
+    width: 40px;
+    /* Adjust the width to your preference */
+    height: 40px;
+    /* Adjust the height to your preference */
+    object-fit: contain;
+}
+
+mat-card-header {
+    display: flex;
+    align-items: center;
+}
+
+mat-card-title {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.platform-cards-container {
+    margin-top: 50px;
+}
+
+.platform-card {
+    margin: 10px;
+}
+
+.contact-card {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-card-header {
+    justify-content: center;
+}
