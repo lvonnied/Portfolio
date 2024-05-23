@@ -18,9 +18,14 @@ export class Tag {
     static readonly RUBY = new Tag('Ruby', '#D32F2F');
     static readonly RAILS = new Tag('Rails', '#D32F2F');
     static readonly JAVA = new Tag('Java', '#D32F2F');
+    static readonly CSHARP = new Tag('CSharp', '#D32F2F');
     static readonly SPRING = new Tag('Spring', '#388E3C');
     static readonly KOTLIN = new Tag('Kotlin', '#7B1FA2');
     static readonly SWIFT = new Tag('Swift', '#F57C00');
+    static readonly REACTNATIVE = new Tag('React Native', '#1976D2');
+    static readonly EXPO = new Tag('Expo', 'gray');
+    static readonly VUFORIA = new Tag('Vuforia', 'green');
+    static readonly UNITY = new Tag('Unity', '#1976D2');
 
 
     private constructor(private readonly key: string, public readonly color: string) {
