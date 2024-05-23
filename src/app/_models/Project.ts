@@ -6,5 +6,6 @@ export interface Project {
     subtitle: string;
     description: string;
     url: string;
+    url_text: string;
     tags: Tag[];
 }
