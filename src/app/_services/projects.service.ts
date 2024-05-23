@@ -9,36 +9,22 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
-      title: 'Project One',
-      subtitle: 'Subtitle One',
-      description: 'This is a brief description of Project One.',
-      url: 'https://github.com/angular/angular',
-      tags: [Tag.ANGULAR, Tag.FIREBASE, Tag.TYPESCRIPT]
+      title: 'Fitness Gamification',
+      subtitle: 'Mobile Application for iOS and Android',
+      description: 'For my bachelor thesis, I have created a mobile application which allows users to challenge their friends in Pullups. Using the built in sensors from the phone the app registers repetitions and compares them to the challengers.',
+      url: 'https://apps.apple.com/ch/app/fitchallenge/id6449786268',
+      url_text: 'App Store',
+      tags: [Tag.JAVASCRIPT, Tag.FIREBASE, Tag.REACTNATIVE, Tag.EXPO]
     },
     {
       id: 1,
-      title: 'Project Two',
-      subtitle: 'Subtitle Two',
-      description: 'This is a brief description of Project Two.',
-      url: 'https://github.com/angular/angular',
-      tags: [Tag.REACT, Tag.JAVASCRIPT, Tag.NODEJS]
+      title: 'GhostAR',
+      subtitle: 'Experimental augmented reality game based on Vuforia',
+      description: 'I developed this game during my internship at the HSR. Catch ghosts in augmented reality using image recognition. An experimental project to learn more about AR and Unity. It is kind of a basic version of Pokemon Go.',
+      url: 'https://github.com/lvonnied/GhostAR',
+      url_text: 'GitHub',
+      tags: [Tag.CSHARP, Tag.VUFORIA, Tag.UNITY]
     },
-    {
-      id: 2,
-      title: 'Project Three',
-      subtitle: 'Subtitle Three',
-      description: 'This is a brief description of Project Three.',
-      url: 'https://github.com/angular/angular',
-      tags: [Tag.VUE, Tag.JAVASCRIPT, Tag.VUETIFY]
-    },
-    {
-      id: 3,
-      title: 'Project Four',
-      subtitle: 'Subtitle Four',
-      description: 'This is a brief description of Project Four.',
-      url: 'https://github.com/angular/angular',
-      tags: [Tag.SVELTE, Tag.JAVASCRIPT, Tag.SAPPER]
-    }
   ];
 
   constructor() { }
